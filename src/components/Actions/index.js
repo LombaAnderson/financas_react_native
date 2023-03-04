@@ -46,9 +46,7 @@ export default function Actions() {
                  <AntDesign name="setting" size={26} color="#000" />
              </View>
              <Text style={styles.labelButton}>Conta</Text>
-         </TouchableOpacity>  
-    
-    
+         </TouchableOpacity>    
     </ScrollView>
 
     
