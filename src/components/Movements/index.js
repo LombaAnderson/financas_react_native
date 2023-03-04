@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 export default function Movements({data}) {
-   const [showValue, setShowValue] = useState([]);
+   const [showValue, setShowValue] = useState(false);
 
  return (
    <TouchableOpacity style= {styles.container} onPress={() => setShowValue(!showValue)}>
